@@ -31,6 +31,7 @@ class ImagemagickPango < Formula
   depends_on "webp"
   depends_on "xz"
   depends_on "pango"
+  depends_on "harfbuzz"
 
   skip_clean :la
 
