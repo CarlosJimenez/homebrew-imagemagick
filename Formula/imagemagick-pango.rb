@@ -1,4 +1,4 @@
-class Imagemagick < Formula
+class ImagemagickPango < Formula
   desc "Tools and libraries to manipulate images in many formats"
   homepage "https://www.imagemagick.org/"
   # Please always keep the Homebrew mirror as the primary URL as the
