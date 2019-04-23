@@ -31,7 +31,7 @@ class ImagemagickPango < Formula
   depends_on "webp"
   depends_on "xz"
 
-  # dependencies for pango
+  # Added dependencies for pango
   depends_on "pango"
   depends_on "harfbuzz"
   depends_on "sqlite"
