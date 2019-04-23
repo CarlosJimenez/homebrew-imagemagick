@@ -30,8 +30,18 @@ class ImagemagickPango < Formula
   depends_on "openjpeg"
   depends_on "webp"
   depends_on "xz"
+
+  # dependencies for pango
   depends_on "pango"
   depends_on "harfbuzz"
+  depends_on "sqlite"
+  depends_on "python"
+  depends_on "openssl"
+  depends_on "glib"
+  depends_on "shared-mime-info"
+  depends_on "ilmbase"
+  depends_on "pixman"
+  depends_on "icu4c"
 
   skip_clean :la
 
