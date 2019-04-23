@@ -15,9 +15,6 @@ Due to restrictions in using options in latest versions of homebrew you cannot i
 * To use this tap 
   ```sh
   brew install CarlosJimenez/homebrew-imagemagick/imagemagick-pango
-  ```
-
-* In case you needed to move from imagemagick to imagemagick-pango
-  ```sh
+  # In case you needed to move from imagemagick to imagemagick-pango
   brew link --overwrite imagemagick-pango
   ```
